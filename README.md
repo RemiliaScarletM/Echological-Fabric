@@ -28,6 +28,12 @@ Direct to the directory fabric-echological
  `sudo docker ps`  
  If success, you can see three docker container which are two fabric-peer and one fabric-orderer 
 
+## Helper For Echologicol Project  
+Tips: Our project is in the director called echological-chaincode  
+1. If you have other node for test version, please use `sudo ./network.sh down` before launching.  
+2. Use `sudo ./network.sh up` and `sudo ./network.sh createChannel`  to update the container to update the container.  
+3. Use `./network.sh deployCC -ccn basic -ccp ../../fabric-chaincode -ccl go` and script will automatically start our chain.  
+
 
 ## License <a name="license"></a>
 
