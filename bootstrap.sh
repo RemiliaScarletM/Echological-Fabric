@@ -1,9 +1,4 @@
 #!/bin/bash
-#
-# Copyright IBM Corp. All Rights Reserved.
-#
-# SPDX-License-Identifier: Apache-2.0
-#
 
 # if version not passed in, default to latest released version
 VERSION=2.4.6
